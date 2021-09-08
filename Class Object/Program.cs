@@ -37,6 +37,7 @@ namespace Class_Object
             Console.WriteLine("**********************************");
 
             Address ad = new Address("Sohag", "aaa", 122555);
+            //Console.WriteLine(ad.ToString());
             Person[] r = new Person[2];
 
             r[0] = new Emploee(12, 2000,"Alshaimaa",25, ad);
@@ -57,6 +58,7 @@ namespace Class_Object
             Console.WriteLine(et);
 
             #endregion
+            Console.WriteLine(et.GetType() + " " + typeof(Person));
 
         }
     }
